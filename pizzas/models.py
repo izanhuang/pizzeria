@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Pizza (models.Model):
+class Pizza(models.Model):
     """The name of a pizza."""
     name = models.CharField(max_length=200)
 
